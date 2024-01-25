@@ -1,0 +1,2 @@
+(self.webpackChunkblog_jamstack=self.webpackChunkblog_jamstack||[]).push([[682],{7198:function(e,n,t){"use strict";t.d(n,{Z:function(){return r}});var c=t(7294);function r(e){var n=e.children;return c.createElement("div",{className:"container"},n)}},5518:function(e,n,t){"use strict";t.r(n);var c=t(7294),r=t(7198);n.default=function(e){return c.createElement(r.Z,null,c.createElement("p",null,"About"))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-b9a451243df87a54cd46.js.map
