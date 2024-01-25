@@ -11,7 +11,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $password = htmlspecialchars($_POST['password']); 
   if (empty($password) or $password != '123456') {
     echo "<p>You cannot enter to this site</b>";
-    exit;
   } else {
     echo "<p>Hello, $name! You're the best</b>";
   }
