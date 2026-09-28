@@ -1,28 +1,59 @@
 ## 01-static
 
-Run with your browser
+```sh
+cd 01-static
+python3 -m http.server 8080
+```
+
+Open `http://localhost:8080`
 
 ## 02-ssr
 
-Run with XAMPP and access to `http://localhost/02-ssr/index.php`
+```sh
+cd 02-ssr
+php -S localhost:8080
+```
+
+Open `http://localhost:8080/index.php`
 
 ## 03-ajax
 
-Run with XAMPP and access to `http://localhost/03-ajax/index.php`
+```sh
+cd 03-ajax
+php -S localhost:8080
+```
+
+Open `http://localhost:8080/index.php`
 
 ## 04-spa
 
-Run `npm install`
-Run with npm `npm run dev`
+```sh
+cd 04-spa
+npm install
+npm run dev
+```
+
+Open `http://localhost:5173`
 
 ## 05-pwa
 
-Run `npm install`
-Run with npm `npm run build && npx http-server dist`
+```sh
+cd 05-pwa
+npm install
+npm run build && npx http-server dist
+```
 
-## 06-pwa
+Open `http://localhost:8080`
 
-Run `npm install`
-Run with npm `npm run serve`
+## 06-jamstack
+
+To serve the built `public` folder:
+
+```sh
+cd 06-jamstack/public
+python3 -m http.server 8080
+```
+
+Open `http://localhost:8080`
 
 
